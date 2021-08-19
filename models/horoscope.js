@@ -4,6 +4,7 @@ const compatibilityMappingSchema = new mongoose.Schema({
   name: { type: String, required: true },
   value: { type: Number, required: true },
   compatible: { type: Boolean, required: true },
+  explanation: { type: String, required: true },
 });
 
 const horoscopeSchema = new mongoose.Schema({
